@@ -92,7 +92,9 @@ Color getSnackbarColor(SnackBarColors color) {
     case SnackBarColors.waitting7:
       return ColorUtilities.waitting7;
 
-    case SnackBarColors.success1:
+    case SnackBarColors.successOrange:
+      return ColorUtilities.successOrange;
+      case SnackBarColors.success1:
       return ColorUtilities.success1;
     case SnackBarColors.success2:
       return ColorUtilities.success2;
@@ -163,6 +165,7 @@ enum SnackBarColors {
   waitting5,
   waitting6,
   waitting7,
+  successOrange,
   success1,
   success2,
   success3,
@@ -195,6 +198,7 @@ enum SnackBarColors {
 
 /// this is the list of available colors for this package.
 class ColorUtilities {
+  static Color successOrange = const Color(0xFFFD8D4F);
   static Color success1 = const Color(0xFF153E2C);
   static Color success2 = const Color(0xFF09653F);
   static Color success3 = const Color(0xFF266F4F);
