@@ -205,7 +205,7 @@ class ColorUtilities {
   static Color success4 = const Color(0xFF468F70);
   static Color success5 = const Color(0xFF15B56F);
   static Color success6 = const Color(0xFF58D7A0);
-  static Color success7 = const Color(0xFF89E8BF);
+  static Color success7 = const Color(0xFFFD8D4F);
   static Color warning1 = const Color(0xFF3E2216);
   static Color warning2 = const Color(0xFF6C270A);
   static Color warning3 = const Color(0xFF823E22);
