@@ -246,7 +246,7 @@ class _CustomSnackbarState extends State<CustomSnackbar>
                                               style: const TextStyle(
                                                 color: Colors.white,
                                                 fontWeight: FontWeight.normal,
-                                                fontSize: 14,
+                                                fontSize: 16,
                                               ),
                                             ),
                                       ],
